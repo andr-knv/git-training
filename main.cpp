@@ -1,11 +1,8 @@
+#pragma once
 #include <iostream.h> 
-#include <conio.h> 
+#include "factorial"
  
-int factorial(int i)
-{
-  if (i==0) return 1;
-  else return i*factorial(i-1);
-}
+
  
 int main()
 {
@@ -15,5 +12,5 @@ int main()
  
   cin >> n;
   cout << factorial(n);
-  getch();
+ 
 }
