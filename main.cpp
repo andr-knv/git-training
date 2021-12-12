@@ -1,5 +1,7 @@
-#include <iostream.h> 
-#include <conio.h> 
+#include <iostream> 
+
+
+using namespace std;
  
 int factorial(int i)
 {
@@ -15,5 +17,5 @@ int main()
  
   cin >> n;
   cout << factorial(n);
-  getch();
+  
 }
