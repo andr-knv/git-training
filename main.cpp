@@ -1,6 +1,7 @@
-#pragma once
-#include <iostream.h> 
-#include "factorial"
+#include <iostream> 
+
+
+using namespace std;
  
 
  
@@ -12,5 +13,5 @@ int main()
  
   cin >> n;
   cout << factorial(n);
- 
+
 }
