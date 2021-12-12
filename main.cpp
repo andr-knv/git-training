@@ -1,16 +1,19 @@
-#include <iostream> 
-
+#include <iostream.h> 
+#include <conio.h> 
  
-int main(){
+int factorial(int i)
+{
+  if (i==0) return 1;
+  else return i*factorial(i-1);
+}
+ 
+int main()
+{
   int n;
   int i;
   int res;
  
-  std::cin >> n;
-  res = 1;
-  for (i = 1; i <= n; i++) {
-	res = res * i;
-  }
-  std::cout << res;
-  
+  cin >> n;
+  cout << factorial(n);
+  getch();
 }
